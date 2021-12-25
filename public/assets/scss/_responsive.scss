@@ -1,0 +1,75 @@
+@media (max-width: 600px){
+    
+    html{
+        font-size: 8px;
+    }
+
+    .vMenu{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        .navbar-collapse{
+            padding-top: 2rem;
+            border-top: 1px solid rgba($white-color,.1);
+            margin-top: 2rem;
+
+            .navbar-nav{
+                align-items: flex-start;
+            }
+        }
+    }
+    
+    .luxThumbs{
+        ul{
+            flex-direction: column;
+            margin-left: 4rem;
+            
+            li{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .luxMainImg{
+        display: none;
+    }
+
+    .knowMoreThumbs{
+
+        h1{
+            position: relative;
+            top: 4rem;
+            font-size: 10rem;
+        }
+
+        ul{
+            margin-left: 0;
+
+            li{
+                height: auto;
+            }
+        }
+    }
+
+    .aboutUs .sectText p{
+        margin-top: 3rem;
+    }
+
+    .callBackForm{
+        input[type="text"]{
+            width: 100%;
+        }
+    }
+
+    .logoFooter{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    .contactsFooter ul {
+        flex-direction: column;
+        li .separator{
+            opacity: 0;
+        }
+    }
+}

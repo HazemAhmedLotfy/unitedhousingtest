@@ -1,0 +1,37 @@
+.unitedFooter{
+    background-color: $white-color;
+    padding: 5rem 0;
+
+    .container{
+        background-color: $light-bg-color;
+    }
+}
+
+.footerCont{
+    padding: 3rem;
+    background-color: $light-bg-color;
+}
+
+.infoLinks{
+    display: flex;
+    flex-direction: column;
+
+    span{
+        margin-bottom: 2rem;
+        color: $nav-color;
+        font-size: 1.4rem;
+        font-family: 'semi';
+        i{
+            margin-right: 1rem;
+        }
+    }
+}
+
+.footerCopy{
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+    color: $nav-color;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

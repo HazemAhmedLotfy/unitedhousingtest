@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'light';
+  src: url('/assets/fonts/light/NunitoSans-Light.eot');
+  src: url('/assets/fonts/light/NunitoSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/light/NunitoSans-Light.woff2') format('woff2'),
+      url('/assets/fonts/light/NunitoSans-Light.woff') format('woff'),
+      url('/assets/fonts/light/NunitoSans-Light.ttf') format('truetype'),
+      url('/assets/fonts/light/NunitoSans-Light.svg#NunitoSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'semi';
+  src: url('/assets/fonts/semi/NunitoSans-SemiBold.eot');
+  src: url('/assets/fonts/semi/NunitoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/semi/NunitoSans-SemiBold.woff2') format('woff2'),
+      url('/assets/fonts/semi/NunitoSans-SemiBold.woff') format('woff'),
+      url('/assets/fonts/semi/NunitoSans-SemiBold.ttf') format('truetype'),
+      url('/assets/fonts/semi/NunitoSans-SemiBold.svg#NunitoSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('/assets/fonts/regular/NunitoSans-Regular.eot');
+  src: url('/assets/fonts/regular/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/regular/NunitoSans-Regular.woff2') format('woff2'),
+      url('/assets/fonts/regular/NunitoSans-Regular.woff') format('woff'),
+      url('/assets/fonts/regular/NunitoSans-Regular.ttf') format('truetype'),
+      url('/assets/fonts/regular/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url('/assets/fonts/bold/NunitoSans-Bold.eot');
+  src: url('/assets/fonts/bold/NunitoSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/bold/NunitoSans-Bold.woff2') format('woff2'),
+      url('/assets/fonts/bold/NunitoSans-Bold.woff') format('woff'),
+      url('/assets/fonts/bold/NunitoSans-Bold.ttf') format('truetype'),
+      url('/assets/fonts/bold/NunitoSans-Bold.svg#NunitoSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'icoFont';
+  src:  url('/assets/fonts/icons/icomoon.eot?nhff76');
+  src:  url('/assets/fonts/icons/icomoon.eot?nhff76#iefix') format('embedded-opentype'),
+    url('/assets/fonts/icons/icomoon.ttf?nhff76') format('truetype'),
+    url('/assets/fonts/icons/icomoon.woff?nhff76') format('woff'),
+    url('/assets/fonts/icons/icomoon.svg?nhff76#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icoFont' !important;
+  //speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stock:before {
+  content: "\e901";
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-furniture:before {
+  content: "\e901";
+}
+.icon-location:before {
+  content: "\e906";
+}
+.icon-mail:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-facbeook:before {
+  content: "\e909";
+}
+.icon-Instagram:before {
+  content: "\e90a";
+}
+.icon-linked:before {
+  content: "\e90b";
+}
+
+.icon-arrow-down-right2:before {
+  content: "\ea3d";
+}

@@ -1,0 +1,199 @@
+#Portfolio{
+    padding: 8rem 0;
+}
+
+.sectionTitle{
+    text-align: left;
+
+    h1{
+        font-size: 1.6rem;
+        color: $nav-color;
+        font-family: 'light';
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        span{
+            width: 2.4rem;
+            background-color: $nav-color;
+            height: 1px;
+            margin-right: 1rem;
+            display: inline-block;
+        }
+    }
+
+    h2{
+        font-size: 2rem;
+        color: $nav-color;
+        display: inline-block;
+        width: 28rem;
+        margin-bottom: 3.5rem;
+    }
+}
+
+.projectItem{
+    position: relative;
+    transition: all 0.3s ease;
+
+    &:hover{
+        .projectData{
+            visibility: visible;
+        }
+    }
+}
+
+.projectData{
+    visibility: hidden;
+    color: $white-color;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($black-color,0.6);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+
+    h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    a{
+        font-size: 1.6rem;
+        display: flex;
+        text-decoration: none;
+        color: inherit;
+        transition: all 1s ease;
+
+        &:hover{
+            color: $light-color;
+
+            i{
+                color: $white-color;
+                background: $light-color;
+                border-color: $light-color;
+            }
+        }
+        //align-items: center;
+
+        i{
+            margin-left: 1rem;
+            display: inline-flex;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            border: 2px solid $white-color;
+            background: transparent;
+            transform: rotate(-45deg);
+            transition: all 1s ease;
+        }
+    }
+}
+
+.viewAll{
+    padding: 2rem 0 0;
+    .container{
+        display: flex;
+        justify-content: flex-end;
+
+        a{
+            font-size: 1.6rem;
+            color: $nav-color;
+        }
+    }
+}
+
+#Projects{
+    .projectImg{
+        height: 40rem;
+        overflow: hidden;
+        img{
+            min-width: 100%;
+        }
+    }
+
+    .projectData{
+        visibility: visible;
+    }
+}
+
+.projectConsist{
+    p{
+        font-family: 'semi';
+    }
+
+    ul,
+    .projectFeatures p{
+        padding: 0;
+        list-style: none;
+        color: $nav-color;
+        font-size: 1.8rem;
+        font-family: 'regular';
+    }
+}
+
+.salesCall{
+    background-color: $light-color;
+    padding: 4rem 0;
+    text-align: center;
+    margin: 7rem 0;
+
+    span{
+        display: block;
+        color: $white-color;
+        font-size: 2.4rem;
+        width: 45%;
+        margin: auto;
+        line-height: 3.3rem;
+        margin-bottom: 2rem;
+        font-family: 'bold';
+    }
+
+    button{
+        background-color: $btn-color;
+        border: none;
+        padding: 1.5rem 2rem;
+        color: $white-color;
+        font-size: 1.6rem;
+        color: $nav-color;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        i{
+            margin-left: 1rem;
+            transform: rotate(180deg);
+            font-size: 1rem;
+        }
+    }
+}
+
+.projectLocation{
+    h1{
+        color: $nav-color;
+        font-size: 1.8rem;
+        font-family: 'bold';
+        margin-bottom: 2rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+        color: $nav-color;
+        margin-bottom: 3rem;
+    }
+
+    iframe{
+        width: 100%;
+        height: 40rem;
+    }
+    
+}

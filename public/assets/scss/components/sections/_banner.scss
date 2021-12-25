@@ -1,0 +1,109 @@
+.resSlider {
+    position: relative;
+
+    .owl-dots{
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        bottom: 0;
+        height: 3rem;
+        
+        .owl-dot{
+            
+            &.active{
+                span{
+                    background-color: #3EAFD6 !important;
+                }
+            }
+
+            span{
+                background-color: $white-color !important;
+                width: 3rem !important;
+                height: 2px !important;
+            }
+        }
+    }
+}
+
+.bannerItem{
+    position: relative;
+}
+
+.bannerInfoCont {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .container{
+        text-align: left;
+    }
+}
+
+.bannerInfo{
+    background-color: $light-color;
+    color: $white-color;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 4rem;
+    text-align: left;
+    width: 30%;
+
+    h1{
+        font-size: 1.6rem;
+        font-family: 'light';
+        position: relative;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+
+        &:after{
+            position: absolute;
+            content: "";
+            width: 10%;
+            height: 1px;
+            background-color: $white-color;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    h2{
+        font-size: 2.8rem;
+        width: 67%;
+        margin-bottom: 2.5rem;
+        font-family: 'semi';
+    }
+
+    a{
+        font-size: 1.6rem;
+        display: flex;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover{
+            color: inherit;
+            i{
+                background: $secondry-color;
+                border: 2px solid $secondry-color;
+                color: $white-color;
+            }
+        }
+
+        i{
+            margin-left: 1rem;
+            display: inline-flex;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            border: 2px solid $white-color;
+            transform: rotate(-45deg);
+            transition: all 1s ease;
+
+        }
+    }
+}

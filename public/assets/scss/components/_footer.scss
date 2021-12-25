@@ -1,0 +1,88 @@
+.footerTop{
+    background-color: $bg-color;
+    padding: 6.4rem 0;
+    z-index: 2;
+    position: relative;
+}
+
+.contactsFooter{
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0;
+        
+        li{
+            font-size: 1.6rem;
+            color: $white-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .separator{
+                width: 1px;
+                height: 1.5rem;
+                background-color: $footer-border;
+                margin: 0 3rem;
+            }
+
+            i{
+                font-size: 1.8rem;
+                margin-right: 1.2rem;
+            }
+        }
+    }
+}
+
+.footerSecondry{
+    padding: 3.5rem 0;
+}
+
+.copyText{
+    font-size: 1.8rem;
+    color: $black-color;
+}
+
+.socialFooter{
+    ul{
+        color: $black-color;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+
+        h4{
+            font-size: 1.8rem;
+            margin: 0;
+            padding: 0;
+            margin-right: 2rem;
+            text-transform: capitalize;
+        }
+
+        li{
+            font-size: 1.6rem;
+            color: $black-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .separator{
+                width: .5rem;
+                height: .5rem;
+                border-radius: 50%;
+                background-color: $black-color;
+                margin: 0 1.8rem;
+            }
+
+            a{
+                display: inline-block;
+            }
+
+            i{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
